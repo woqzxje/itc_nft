@@ -1,0 +1,4 @@
+[build]
+  base = "frontend"         # Quan trọng: Bảo Netlify đi vào thư mục frontend trước
+  command = "npm run build" # Lệnh build dự án của bạn (nếu bạn dùng yarn thì đổi thành yarn build)
+  publish = "dist"          # Thư mục chứa code cuối cùng sau khi build (có thể là 'dist', 'build', hoặc 'out' tùy framework bạn dùng)
